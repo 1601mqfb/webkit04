@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  font-size: .32rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: .8rem;
+  display: flex;
+}
+
+header ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+header ul li {
+  flex-shrink: 0;
+  padding: 0 .15rem;
+  line-height: .8rem;
+}
+
+header ul .active {
+  border-bottom: 2px solid #EE7930;
+  color: #EE7930;
+}
+
+header .icon {
+  width: .8rem;
+  height: .8rem;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .4rem;
+}
+
+section {
+  flex: 1;
+  padding: .1rem;
+  overflow-y: scroll;
+}
+
+section .title {
+  width: 100%;
+  height: .9rem;
+  line-height: .9rem;
+}
+
+section .content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .content dl {
+  width: 50%;
+  height: 3.2rem;
+  text-align: center;
+}
+
+section .content dl dt {
+  width: 3.6rem;
+  height: 2.08rem;
+}
+
+section .content dl dt img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  height: .9rem;
+  display: flex;
+}
+
+footer dl {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer dl dt .icon {
+  font-size: .4rem;
+}
+
+footer dl dd {
+  font-size: .28rem;
+}
